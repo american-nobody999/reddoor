@@ -2,9 +2,11 @@
 This is repository for legal professionals and documented war crimes by the Occupation
 
 
-#MPAG: Red Door War Crimes page
-#Leslie Brockman
-#Date last modified: 2026-06-30
+MPAG: Red Door War Crimes page
+
+Leslie Brockman
+
+Date last modified: 2026-06-30
 
 Css and Js will be written and added for repository to relect design style of one match.
 
