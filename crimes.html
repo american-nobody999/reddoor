@@ -1,0 +1,484 @@
+<!--
+MPAG: Red Door War Crimes page
+Leslie Brockman
+Date last modified: 2026-06-30
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="American Nobody999">
+
+<!--For SQL and better accesibility-->
+    <meta name="description" content="Bilingual educational and advocacy platform featuring stories, journalism, historical resources, cultural content, and community voices.">
+    <title>Make Palestine Great Again - MPGA</title>
+    
+<!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&amp;display=swap" rel="stylesheet">
+    
+<!-- Styles -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body class="home-page">
+    
+<header class="site-header">
+    <div class="header-container">
+<!-- Logo - Left Side-waiting for logo contest from Palestinians -->
+       <div class="header-logo">
+                <img src="images/001.jpg" alt="MPGA Logo - Make Palestine Great Again" class="logo-img" loading="lazy">
+        </div>
+<!-- Center Content, don't touch this for now -->
+<!-- lang-en and lang-ar are classes for the whole website language toggle, js rule rewritten to avoid having to manually change each element -->
+<!-- Language Toggle - Directly under h1 for functionality--gets lost if moved into the nav-- leave this alone -->
+        <div class="header-center">
+            <h1 class="site-title">
+                <span class="lang-en">State of Palestine</span>
+                <span class="lang-ar">دولة فلسطين</span>
+            </h1>
+            <button id="lang-toggle" class="lang-toggle" aria-label="Toggle language">
+                    English | العربية
+            </button>
+<!-- Navigation - Centered under button-colors, hover effects, and active state handled by CSS, will change baised on Palestine design-->
+<!-- progress.html will be replaced as the pages are completed with content and correct css, we did this all backwards, this website will remain live through the errors and reorganization-->
+            <nav class="main-nav" aria-label="Main navigation">
+              <ul class="nav-menu">
+                <li><a href="index.html" class="nav-btn active">
+                      <span class="lang-en">Home</span>
+                      <span class="lang-ar">الرئيسية</span>
+                </a></li>
+                <li><a href="mpga.html" class="nav-btn">
+                        <span class="lang-en">MPGA</span>
+                        <span class="lang-ar">MPGA</span>
+                </a></li>
+                <li><a href="united.html" class="nav-btn">
+                      <span class="lang-en">United</span>
+                      <span class="lang-ar">متحدون</span>
+                </a></li>
+                <li><a href="leslie.html" class="nav-btn">
+                    <span class="lang-en">Leslie</span>
+                    <span class="lang-ar">ليزلي</span>
+                </a></li>
+                <li><a href="about.html" class="nav-btn">
+                      <span class="lang-en">About Us</span>
+                      <span class="lang-ar">من نحن</span>
+                </a></li>
+              </ul>
+            </nav>
+        </div>
+<!-- Hamburger for Mobile--DO NOT TOUCH THIS!!!!!--EVER!-->
+            <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+      </div>
+</header>
+<main>
+
+<section class="crimes-section">
+    <div class="crimes-container">
+        <h2>
+            <span class="lang-en">Crimes Against Humanity</span>
+            <span class="lang-ar">جرائم ضد الإنسانية</span>
+        </h2>
+        <div class="crimes-content">
+            <p>
+                <span class="lang-en">This section highlights the ongoing crimes against humanity in Palestine, including but not limited to unlawful killings, forced evictions, and systemic discrimination.</span>
+                <span class="lang-ar">تسلط هذه القسم الضوء على الجرائم المستمرة ضد الإنسانية في فلسطين، بما في ذلك على سبيل المثال لا الحصر القتل غير القانوني، الإخلاءات القسرية، والتمييز المنهجي.</span>
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="crimes-gallery">
+    <div class="gallery-container">
+        <h2>
+            <span class="lang-en">Visual Documentation</span>
+            <span class="lang-ar">التوثيق البصري</span>
+        </h2>
+         <div class="video-gallery-section">
+    <h2>
+      <span class="gallery-title-en">In Palestine: Reality Check</span>
+      <span class="gallery-title-ar hidden" style="direction:rtl; font-family:'Amiri', serif;">هذا الأسبوع في فلسطين: فحص الواقع</span>
+    </h2>
+    <div class="video-gallery">
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_27.mp4" controls preload="none" loading="lazy"></video>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div><div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_29.mp4" controls preload="none" loading="lazy"></video>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div><div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_34.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_18.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_56.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_31.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_17.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_51.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_26.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+    </div>
+  </div> 
+    </div>
+</section>
+
+<section class="crimes-notes">
+    <div class="notes-container">
+        <h2>
+            <span class="lang-en">Additional Notes</span>
+            <span class="lang-ar">ملاحظات إضافية</span>
+        </h2>
+        <div class="notes-content">
+            <p>
+                <span class="lang-en">These videos and images serve as a stark reminder of the ongoing struggles faced by the people of Palestine. We encourage viewers to educate themselves further and support humanitarian efforts.</span>
+                <span class="lang-ar">تعمل هذه الفيديوهات والصور كتذكير صارخ بالصراعات المستمرة التي يواجهها شعب فلسطين. نشجع المشاهدين على تثقيف أنفسهم أكثر ودعم الجهود الإنسانية.</span>
+            </p>
+    </div>
+     <div class="video-gallery-section">
+    <h2>
+      <span class="gallery-title-en">This Week In Palestine: Reality Check</span>
+      <span class="gallery-title-ar hidden" style="direction:rtl; font-family:'Amiri', serif;">هذا الأسبوع في فلسطين: فحص الواقع</span>
+    </h2>
+    <div class="video-gallery">
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_27.mp4" controls preload="none" loading="lazy"></video>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div><div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_29.mp4" controls preload="none" loading="lazy"></video>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div><div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_34.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_18.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_56.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_31.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_17.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_51.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/20260216_26.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+    </div>
+  </div> 
+   <div class="video-gallery">
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/02062026_3.mp4" controls preload="none" loading="lazy"></video>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div><div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/02062026_7.mp4" controls preload="none" loading="lazy"></video>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div><div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/02062026_41.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video2/02062026_17.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video/02012026_51.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video/02012026_27.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video/02012026_28.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video/02012026_29.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video/02012026_30.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video/02012026_31.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+      <div class="video-container">
+        <video src="https://raw.githubusercontent.com/american-nobody999/two-match-video/main/video/02012026_32.mp4" controls preload="none" loading="lazy"></video>
+        <div class="warning-overlay">
+          <span class="warning-en">Viewer Discretion Advised</span>
+          <span class="warning-ar hidden">تحذير: محتوى حساس</span>
+        </div>
+        <div class="video-overlay hidden">
+          <img src="https://raw.githubusercontent.com/american-nobody999/three-match-image/main/image/0009.jpg" alt="overlay" loading="lazy">
+          <button class="replay-btn">⟲</button>
+        </div>
+        <button class="initial-play-btn">▶</button>
+      </div>
+    </div>
+</div>
+</main>
+
+  <footer class="site-footer">
+        <div class="footer-container">
+        <div class="footer-row">
+          <a href="legal.html" class="footer-btn footer-btn-left">
+            <span class="lang-en">Legal</span>
+            <span class="lang-ar">قانوني</span>
+          </a>
+
+          <div class="footer-content">
+            <img src="images/40.jpg" alt="" class="footer-img" loading="lazy">
+            <p class="footer-text">
+              <span class="lang-en">From the Ashes, A State rises</span>
+              <span class="lang-ar">من الرماد، تنهض دولة</span>
+            </p>
+            <p class="copyright">
+              <span class="lang-en">&copy; 2026 American Nobody999</span>
+              <span class="lang-ar">&copy; 2026 أمريكي Nobody999</span>
+            </p>
+          </div>
+<!--progress.html needs to be replaced with contact us.html-->
+<!--When this page goes live, this communcation avenue needs to be left alone, gentle request. This message is not for everyone.-->
+          <a href="contact.html" class="footer-btn footer-btn-right">
+            <span class="lang-en">Contact Us</span>
+            <span class="lang-ar">اتصل بنا</span>
+          </a>
+            </div>
+        </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
